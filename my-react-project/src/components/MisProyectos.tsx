@@ -45,9 +45,27 @@ proyectoEscuelas es un sistema de gestión escolar pensado para facilitar y auto
   {
     titulo: "Portafolio Web",
     descripcion: "Este portafolio personal, hecho en React, con animaciones y diseño responsive.",
-    descripcionLarga: "", // Aquí irá la descripción extendida
-    img: "/img/perfil.jpg", // O la imagen que prefieras para tu portafolio
-    link: "#" // Puedes poner el link de tu portafolio si tienes repo
+    descripcionLarga: `
+    <strong>¿Cómo se hizo este portafolio?</strong><br />
+    Este portafolio fue desarrollado utilizando <b>React</b> para el frontend, aplicando componentes reutilizables y estilos modernos con CSS.<br /><br />
+    <ul>
+      <li>Diseño responsive para adaptarse a cualquier dispositivo.</li>
+      <li>Animaciones suaves y efectos visuales para mejorar la experiencia de usuario.</li>
+      <li>Organización modular del código para facilitar el mantenimiento y la escalabilidad.</li>
+      <li>Uso de hooks de React para el manejo de estado y lógica de la interfaz.</li>
+      <li>Despliegue en plataformas modernas para asegurar disponibilidad online.</li>
+    </ul>
+    <br />
+    <strong>Tecnologías principales:</strong>
+    <ul>
+      <li>React</li>
+      <li>JavaScript</li>
+      <li>CSS</li>
+      <li>HTML</li>
+    </ul>
+  `,
+    img: "/img/perfil.jpg",
+    link: "https://github.com/valencastaldi/portafolio" // Pon aquí el link
   }
 ];
 

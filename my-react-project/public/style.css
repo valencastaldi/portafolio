@@ -65,6 +65,32 @@ nav a {
   font-weight: bold;
 }
 
+/* Estilos modernos para el nav */
+.nav-pro {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 24px 0 0 0;
+  font-size: 1.15rem;
+}
+
+.nav-pro a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  transition: color 0.2s, background 0.2s;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+.nav-pro a:hover {
+  color: #7c4dff;
+  background: rgba(124,77,255,0.08);
+}
+
 main {
   width: 100%;
   max-width: 1100px;
@@ -515,4 +541,24 @@ footer {
 @keyframes modalImgIn {
   from { transform: scale(0.8); opacity: 0.5; }
   to { transform: scale(1); opacity: 1; }
+}
+
+/* Separador decorativo para el header */
+.header-separador {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #7c4dff 0%, #00f0ff 100%);
+  border: none;
+  border-radius: 2px;
+  margin: 16px auto 20px auto;
+  display: block;
+}
+
+.header-super-separador {
+  width: 98vw;
+  height: 4px;
+  margin: 32px auto 0 auto;
+  background: linear-gradient(90deg, #ff003c 0%, #7c4dff 100%);
+  border-radius: 2px;
+  box-shadow: 0 2px 12px #0003;
 }

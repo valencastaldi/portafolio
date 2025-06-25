@@ -12,6 +12,7 @@ function App() {
     <>
       <Header />
       <Nav />
+      <div className="header-super-separador"></div>
       <main>
         <SobreMi />
         <MisProyectos />
